@@ -5,7 +5,7 @@ import java.io.*;
 class Main {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
-    Card card2 = new Card();
+    Card randoCard = new Card();
     ChoiceCard myCard = new ChoiceCard();
     Player p1 = new Player(inputName());
     
